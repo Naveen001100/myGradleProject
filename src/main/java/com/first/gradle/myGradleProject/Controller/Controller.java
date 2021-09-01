@@ -21,4 +21,9 @@ public class Controller {
 		return "Hello World";
 	}
 
+	@GetMapping("/greetings")
+	public String getGreetings(){
+		return "Custom World";
+	}
+
 }
